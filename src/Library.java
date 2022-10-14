@@ -6,5 +6,9 @@ public class Library {
         Book book = new Book("x", author, 35, 10);
         Book b2 = new Book("Foundation",
                 new Author("Isaak Newtown", "gg@gmail.com,", 'M'), 30,14);
+
+        System.out.println(book);
+        System.out.println(b2);
     }
+
 }
